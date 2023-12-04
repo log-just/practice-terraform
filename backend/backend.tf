@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "tfstate" {
-  bucket = "jaewook-s3-bucket-tfstate"
+  bucket = "toonsquare-terraform-tfstate"
 }
 
 resource "aws_s3_bucket_acl" "tfstate" {
